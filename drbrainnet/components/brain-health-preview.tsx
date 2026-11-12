@@ -1,0 +1,6 @@
+/** @jsxImportSource @/lib/localized-jsx */
+'use client';
+import Link from '@/components/site-link';
+import document from '@/lib/brain-health-document.json';
+
+export function BrainHealthPreview(){return <div className="brain-health-preview source-document-preview" aria-label="AI Brain Health and Longevity Report cover"><Link href="/reports/brain-health" className="source-report-cover" aria-label="View the English Brain Health and Longevity Report"><div className="report-cover-typeset"><img src="/media/drbrain-neural-banner.webp" width="1920" height="799" alt="" loading="lazy"/><span className="eyebrow">AI & BRAIN SCIENCE</span><h3>AI Brain Health<br/>& Longevity Report</h3><p>MRI-based brain health assessment and multi-condition imaging analysis</p><span>Prepared for Longevity Clinics & Brain Health Clinics</span><strong>Draft for clinician review</strong></div></Link><div className="source-report-caption"><span>{document.pageCount}-page English report</span><span>De-identified sample · Clinical review required</span></div><div className="brain-health-preview-footer"><a href={document.pdf} target="_blank" rel="noreferrer" className="text-link">Open PDF</a><Link href="/reports/brain-health" className="text-link">Explore report pages</Link></div></div>}

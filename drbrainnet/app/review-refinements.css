@@ -1,0 +1,93 @@
+/* October 2026 review: preserve brand and shared locale layout. */
+html{scroll-padding-top:calc(var(--header-height,88px) + 24px)}
+:where(a,button,input,textarea,select,summary){scroll-margin-top:calc(var(--header-height,88px) + 24px);touch-action:manipulation}
+h1,h2,h3{text-wrap:balance}
+.site-header :focus-visible{outline:2px solid #66e6ee;outline-offset:4px}
+.footer-directory a,.footer-contact-row>a{min-height:44px;display:flex;align-items:center;line-height:1.5}
+.publication-actions>a,.publication-actions>button,.card-bottom>a{min-height:44px;align-items:center;display:inline-flex}
+.contact-delivery-note,.contact-copy-result p{font-size:.9375rem;line-height:1.7;color:#496779;margin-top:16px}
+.contact-copy-result{margin-top:20px;border-top:1px solid #b7ccd9;padding-top:12px}
+.contact-copy-result label{display:block;margin:16px 0 8px;font-size:.9375rem}
+.contact-copy-result textarea{width:100%;background:#fff;border:1px solid #b7ccd9;border-radius:4px;padding:12px;color:#183d56;line-height:1.65;font:inherit;overflow-wrap:anywhere}
+.contact-copy-result textarea:focus-visible{outline:2px solid #1476e8;outline-offset:2px}
+[role=dialog]{overscroll-behavior:contain}
+@media(max-width:650px){.contact-form-send .button{width:100%;justify-content:center}.footer-directory{column-gap:20px}.footer-directory a{overflow-wrap:anywhere}.language-menu summary,.native-mobile-navigation summary{min-height:44px;min-width:44px;display:flex;align-items:center;justify-content:center}.contact-tabs{flex-wrap:wrap}}
+@media(max-width:480px){.site-header .header-contact{display:none}.header-inner{gap:14px}.language-menu{margin-left:auto}.contact-v3 .contact-intro h1{font-size:clamp(2rem,8.5vw,3rem);overflow-wrap:anywhere}}
+
+.language-menu summary{background:#66e6ee!important;color:#07172c!important;border:2px solid #fff!important;font-weight:700;box-shadow:0 0 0 2px #07172c;padding:9px 13px;min-height:44px;display:flex;align-items:center}.language-menu summary:hover{background:#fff!important}.language-menu[open] summary{background:#fff!important}.language-menu nav a{min-height:44px;display:flex;align-items:center}.contact-honeypot{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}.inquiry-result{padding:20px;border:1px solid #1476e8;margin:20px 0;background:#fff}.regulatory-privacy-note{background:#edf4f9;padding:16px;line-height:1.7}
+
+/* Language switch text: explicit black in all interaction states. */
+.language-menu summary,.language-menu summary:hover,.language-menu nav a,.language-menu nav a:hover,.language-menu nav a[aria-current=page]{color:#000!important}
+
+.product-tour-layout{display:grid;grid-template-columns:minmax(180px,.5fr) minmax(0,1.5fr);gap:28px;margin:28px 0}.product-tour nav{display:flex;flex-direction:column;gap:12px}.product-tour nav button{min-height:52px;text-align:left;border:1px solid #b7ccd9;padding:14px 18px;border-radius:6px;color:#183d56;background:#fff}.product-tour nav button[aria-pressed=true]{background:#07172c;color:#fff;border-color:#07172c}.product-tour-panel{min-width:0;background:#edf4f9;padding:24px;border-radius:10px}.product-tour-panel img{width:100%;height:300px;object-fit:contain;background:#fff}.product-tour-panel h3{margin:20px 0 12px}.product-tour p,.deployment-readiness p{line-height:1.75;color:#496779;max-width:75ch}.product-tour .actions,.deployment-readiness .actions{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin-top:24px}.product-tour button:disabled{opacity:.45;cursor:not-allowed}.deployment-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:28px 0}.deployment-grid article{padding:24px;background:#edf4f9;border-radius:8px}.deployment-grid h3{margin-bottom:14px}.product-tour button:focus-visible{outline:2px solid #1476e8;outline-offset:3px}@media(max-width:768px){.product-tour-layout,.deployment-grid{grid-template-columns:1fr}.product-tour nav{flex-direction:row;flex-wrap:wrap}.product-tour nav button{flex:1 1 160px}.product-tour-panel{padding:16px}.product-tour-panel img{height:230px}}
+
+.brochure-product-media{padding:40px 0;border-top:1px solid #d6e2ed}.brochure-product-media .media-gallery-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.brochure-product-media .media-image-button{background:#f1f6fb}.brochure-product-media img{object-fit:contain}.product-hero.forcus .product-hero-art img{object-fit:contain}@media(max-width:950px){.brochure-product-media .media-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.brochure-product-media .media-gallery-grid{grid-template-columns:1fr}}
+
+/* Technology: consistent image framing and readable content spacing. */
+.technology-overview .page-intro{max-width:880px;padding-bottom:40px}
+.technology-overview .page-intro h1{font-size:clamp(2.4rem,4.4vw,4rem);line-height:1.18;text-wrap:balance}
+.technology-overview .technology-grid{gap:24px;align-items:stretch}
+.technology-overview .technology-grid article{padding:0;display:flex;flex-direction:column;min-width:0}
+.technology-overview .technology-card-image{margin:0;aspect-ratio:4/3;flex:none;padding:20px;background:#edf3f9;border-bottom:1px solid #d6e2ed}
+.technology-overview .technology-card-image>img,.technology-overview .technology-card-image>svg{width:100%;height:100%;object-fit:contain;display:block;max-width:100%}
+.technology-overview .technology-card-copy{padding:28px;display:flex;flex-direction:column;flex:1;align-items:flex-start}
+.technology-overview .technology-card-copy>svg{margin:0 0 20px}
+.technology-overview .technology-card-copy .eyebrow{line-height:1.6;margin-bottom:12px;letter-spacing:.045em}
+.technology-overview .technology-card-copy h2{font-size:clamp(1.5rem,2.2vw,2rem);line-height:1.25;margin:0 0 18px;text-wrap:balance}
+.technology-overview .technology-card-copy p{margin:0 0 24px;line-height:1.75}
+.technology-overview .technology-card-copy>.text-link{margin-top:auto;min-height:44px;display:inline-flex;align-items:center}
+.technology-overview .science-principles{padding:40px;gap:55px;align-items:start}
+.technology-overview .science-principles h2{font-size:clamp(1.8rem,3vw,2.5rem);line-height:1.3}
+.technology-overview .science-principles>div:last-child>div{gap:20px}
+.technology-detail .technology-detail-hero{gap:40px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.technology-detail .technology-hero-image{margin:0;padding:24px;background:#edf3f9;border:1px solid #d6e2ed;border-radius:12px;overflow:hidden;min-width:0}
+.technology-detail .technology-hero-image.imaging-frame{background:#111b25}
+.technology-detail .technology-hero-image>img,.technology-detail .technology-hero-image>svg{display:block;width:100%;height:310px;object-fit:contain;max-width:100%}
+.technology-detail .technology-hero-image figcaption{padding:16px 0 0;line-height:1.6;font-size:.875rem}
+.technology-detail .technology-io{border-radius:12px;overflow:hidden}
+.technology-detail .technology-workflow{gap:24px}
+.technology-detail>.media-gallery .media-gallery-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.technology-detail .media-image-button>img,.technology-detail .media-image-button>svg{object-fit:contain;width:100%;height:100%;padding:12px}
+.technology-detail .media-image-button{background:#edf3f9;aspect-ratio:4/3;height:auto}
+@media(max-width:950px){.technology-overview .technology-grid{grid-template-columns:1fr}.technology-overview .technology-grid article{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr)}.technology-overview .technology-card-image{height:100%;aspect-ratio:auto;border-bottom:0;border-right:1px solid #d6e2ed;min-height:260px}.technology-detail .technology-detail-hero{grid-template-columns:1fr}.technology-detail>.media-gallery .media-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.technology-overview .science-principles{gap:30px;padding:30px}}
+@media(max-width:650px){.technology-overview .technology-grid article{display:flex}.technology-overview .technology-card-image{height:auto;aspect-ratio:4/3;min-height:0;border-right:0;border-bottom:1px solid #d6e2ed}.technology-overview .technology-card-copy{padding:24px}.technology-overview .science-principles{padding:24px;grid-template-columns:1fr}.technology-detail .technology-hero-image{padding:16px}.technology-detail .technology-hero-image>img,.technology-detail .technology-hero-image>svg{height:240px}.technology-detail>.media-gallery .media-gallery-grid{grid-template-columns:1fr}}
+
+/* November content review: plain typography, product imagery and five product lines. */
+body,button,input,select,textarea,h1,h2,h3,h4,.media-dialog [data-slot=dialog-title]{font-family:Arial,"Noto Sans","PingFang SC","Microsoft YaHei",sans-serif}
+.product-card{grid-template-columns:28px 220px minmax(160px,1fr) minmax(180px,1.2fr) 130px;gap:24px}
+.product-card .card-visual{width:220px;height:160px;border-radius:8px;overflow:hidden}
+.product-card .card-visual img{width:100%;height:100%;object-fit:cover}
+.product-card .card-visual.imaging-frame img{object-fit:contain}
+.product-hero-art.scene-frame{padding:0;overflow:hidden;min-height:360px}
+.product-hero-art.scene-frame>img{width:100%;height:380px;object-fit:cover;padding:0}
+.product-hero-art.scene-frame .product-image-caption{background:#fff;padding:10px 14px;bottom:0;left:0;right:0;color:#234158}
+.product-naming-note{font-size:.875rem!important;border-left:2px solid #9bb7cf;padding-left:16px}
+.product-chapter>h2{font-size:clamp(1.8rem,3vw,2.5rem);margin-bottom:28px;line-height:1.25}
+.product-principles .deployment-grid{margin-top:24px}
+.product-detail-sections .product-tour{padding-top:24px}
+.product-detail-sections .feature-grid{padding-top:0}
+.product-chapter .media-gallery{padding:24px 0}
+.training-coverage{padding-top:36px}
+.training-coverage>p,.compact-evidence>p{max-width:76ch;line-height:1.8;margin-bottom:24px}
+.platform-review{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;padding-left:24px;margin:24px 0;line-height:1.7}
+.neuro-view-tabs{display:flex;flex-wrap:wrap;height:auto!important}
+.neuro-view-tabs [data-slot=tabs-trigger]{min-width:0;flex:1 1 16%;padding:10px 8px;font-size:.8125rem}
+.neuro-view-content img{width:100%;object-fit:contain}
+.neuro-view-content [data-slot=tabs-content]{min-width:0}
+.setting-panel>figure>img{width:100%;height:350px;object-fit:cover}
+.setting-panel>figure.setting-imaging>img{object-fit:contain}
+.field-card img,.field-photo img{object-fit:cover}
+.product-tour-panel img{height:auto;max-height:400px;object-fit:contain;background:transparent}
+.product-page-anchors{overflow-x:auto;scrollbar-width:thin}
+.product-page-anchors>a{white-space:nowrap}
+@media(max-width:1150px){.product-card{grid-template-columns:24px 190px minmax(0,1fr);gap:20px}.product-card .card-visual{grid-column:2;grid-row:1/4;width:190px;height:190px}.product-card .card-identity,.product-card>p,.product-card .card-bottom{grid-column:3}.product-card .card-bottom{flex-direction:row;flex-wrap:wrap}}
+@media(max-width:650px){.product-card{grid-template-columns:1fr;padding:20px}.product-card .card-number{display:none}.product-card .card-visual{width:100%;height:230px;grid-column:1;grid-row:auto}.product-card .card-identity,.product-card>p,.product-card .card-bottom{grid-column:1;grid-row:auto}.product-hero-art.scene-frame{min-height:260px}.product-hero-art.scene-frame>img{height:290px}.platform-review{grid-template-columns:1fr}.setting-panel>figure>img{height:280px}.product-page-anchors{gap:22px}.neuro-view-tabs [data-slot=tabs-trigger]{flex-basis:25%}}
+
+.product-hero.forcus .product-hero-art.scene-frame > img { object-fit: cover; }
+
+/* Brand lockup: keep the approved English slogan beside the header logo. */
+.header-brand-lockup{display:flex;align-items:center;gap:16px;flex-shrink:0}
+.header-brand-slogan{display:block;max-width:112px;padding-left:16px;border-left:1px solid #ffffff50;color:#e8f5fa;font-size:14px;font-weight:500;line-height:1.5;letter-spacing:0;white-space:normal}
+@media(min-width:1051px){.header-inner{gap:20px}.native-desktop-navigation{gap:16px}}
+@media(min-width:1051px) and (max-width:1250px){.header-inner{flex-wrap:wrap}.native-desktop-navigation{order:5;width:100%;justify-content:flex-end}.header-inner>.language-menu{margin-left:auto}}
+@media(max-width:650px){.header-inner{flex-wrap:wrap}.header-brand-lockup{margin-right:auto;gap:10px}.header-brand-slogan{max-width:103px;padding-left:10px;font-size:12px}.header-inner>.header-contact{display:none}.header-inner>.language-menu{margin-left:auto}}

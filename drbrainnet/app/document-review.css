@@ -1,0 +1,21 @@
+/* November document review: shared frames and consistent typography. */
+.brand-english b{text-transform:none;letter-spacing:.035em}
+.technology-strip>span,.technology-strip>a{display:flex;align-items:center;gap:13px;font-size:1rem;line-height:1.6;font-weight:400;letter-spacing:0;color:#183d56;max-width:none}
+.technology-strip svg{flex-shrink:0;color:#075abe}
+.technology-overview .page-intro>p:empty{display:none}
+.product-chapter .media-gallery-grid{align-items:start}
+.product-chapter .media-image-button,.product-chapter .media-image-button.imaging-frame{aspect-ratio:16/10;height:auto;background:#edf3f9;padding:12px}
+.product-chapter .media-image-button.imaging-frame{background:#111b25}
+.product-chapter .media-image-button>img,.product-chapter .media-image-button>svg{display:block;width:100%;height:100%;object-fit:contain}
+.product-chapter .media-gallery-grid.two-images{grid-template-columns:repeat(2,minmax(0,1fr))}
+.brochure-product-media .media-image-button{aspect-ratio:4/3}
+.training-coverage{padding-top:0}
+.report-cover-typeset{padding:22px;background:#fff;display:flex;flex-direction:column;gap:18px;min-height:480px;border:1px solid #d6e2ed;text-align:left;color:#183d56}
+.report-cover-typeset>img{width:100%;height:150px;object-fit:cover}
+.report-cover-typeset h3{font-size:clamp(1.5rem,2.5vw,2rem);line-height:1.25;margin:0;text-wrap:balance}
+.report-cover-typeset p{color:#176b70;font-size:.9375rem;line-height:1.6;margin:0}
+.report-cover-typeset>span:not(.eyebrow){font-size:.8125rem;line-height:1.6}
+.report-cover-typeset strong{font-size:.8125rem;padding:9px 12px;background:#fff7df;margin-top:auto;font-weight:400}
+.source-report-cover{text-decoration:none}
+@media(max-width:650px){.product-chapter .media-gallery-grid.two-images{grid-template-columns:1fr}.technology-strip>span,.technology-strip>a{font-size:.9375rem}.technology-strip>a:last-child{width:auto}.report-cover-typeset{min-height:430px;padding:18px}.report-cover-typeset>img{height:140px}}
+.company-hero .eyebrow,.brain-health-hero .hero-copy>.eyebrow,.care-settings-page>.page-intro>.eyebrow,.regulatory-page>.page-intro>.eyebrow{text-transform:none}

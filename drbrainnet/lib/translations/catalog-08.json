@@ -1,0 +1,546 @@
+{
+  "Close": [
+    "关闭",
+    "Cerrar"
+  ],
+  "study participants": [
+    "研究参与者",
+    "participantes del estudio"
+  ],
+  "correlation with MoCA": [
+    "与 MoCA 的相关性",
+    "correlación con MoCA"
+  ],
+  "reported sensitivity": [
+    "报告的敏感度",
+    "sensibilidad notificada"
+  ],
+  "reported specificity": [
+    "报告的特异度",
+    "especificidad notificada"
+  ],
+  "77 early-AD + 58 control participants": [
+    "77名早期AD患者 + 58名对照",
+    "77 pacientes con Alzheimer temprano + 58 controles"
+  ],
+  "combined-model AUC": [
+    "联合模型 AUC",
+    "AUC del modelo combinado"
+  ],
+  "hippocampal-volume AUC": [
+    "海马体积 AUC",
+    "AUC del volumen hipocampal"
+  ],
+  "Chinese MRI datasets": [
+    "中国 MRI 数据集",
+    "conjuntos chinos de RM"
+  ],
+  "174 CT + 420 MR cases": [
+    "174例CT + 420例MR病例",
+    "174 casos TC + 420 casos RM"
+  ],
+  "volume agreement, ICC": [
+    "体积一致性，ICC",
+    "concordancia de volumen, ICC"
+  ],
+  "CT / MR triage concordance": [
+    "CT / MR 分诊一致率",
+    "concordancia de triaje TC / RM"
+  ],
+  "community participants, age 65+": [
+    "65岁以上社区参与者",
+    "participantes comunitarios de 65 años o más"
+  ],
+  "MLP model AUC": [
+    "MLP 模型 AUC",
+    "AUC del modelo MLP"
+  ],
+  "postmortem tissue cases": [
+    "尸后组织病例",
+    "casos de tejido post mortem"
+  ],
+  "Alzheimer’s / control cases": [
+    "阿尔茨海默病 / 对照病例",
+    "casos de Alzheimer / controles"
+  ],
+  "clinical MRI cases": [
+    "临床 MRI 病例",
+    "casos clínicos de RM"
+  ],
+  "open evaluation datasets": [
+    "开放评估数据集",
+    "conjuntos abiertos de evaluación"
+  ],
+  "clinical case": [
+    "临床病例",
+    "caso clínico"
+  ],
+  "healthy scans for measurement comparison": [
+    "用于测量比较的健康扫描",
+    "estudios sanos para comparar mediciones"
+  ],
+  "Alzheimer’s cases + controls": [
+    "阿尔茨海默病病例 + 对照",
+    "casos de Alzheimer + controles"
+  ],
+  "probable Alzheimer’s disease cases": [
+    "很可能阿尔茨海默病病例",
+    "casos de probable Alzheimer"
+  ],
+  "mild / moderate / severe groups": [
+    "轻度 / 中度 / 重度组",
+    "grupos leve / moderado / grave"
+  ],
+  "retrospective clinical cases": [
+    "回顾性临床病例",
+    "casos clínicos retrospectivos"
+  ],
+  "Alzheimer’s / FTLD cases": [
+    "阿尔茨海默病 / 额颞叶变性病例",
+    "casos de Alzheimer / degeneración frontotemporal"
+  ],
+  "participants per clinical group": [
+    "每个临床组参与者",
+    "participantes por grupo clínico"
+  ],
+  "volunteers, age 51–82": [
+    "51–82岁志愿者",
+    "voluntarios de 51–82 años"
+  ],
+  "cognitive subtests": [
+    "认知分测试",
+    "subpruebas cognitivas"
+  ],
+  "automated vs manual scoring, r": [
+    "自动与手工评分相关系数r",
+    "puntuación automática frente a manual, r"
+  ],
+  "acute-stroke cases": [
+    "急性卒中病例",
+    "casos de ictus agudo"
+  ],
+  "RealNow™ vs reference, ICC": [
+    "RealNow™与参考的一致性ICC",
+    "RealNow™ frente a referencia, ICC"
+  ],
+  "reported RealNow™ AUC": [
+    "报告的 RealNow™ AUC",
+    "AUC notificada de RealNow™"
+  ],
+  "participants with paired MRI / PET": [
+    "具有配对MRI / PET的参与者",
+    "participantes con RM / PET pareadas"
+  ],
+  "amyloid-status accuracy, external sets": [
+    "外部数据集淀粉样蛋白状态准确率",
+    "precisión del estado amiloide en conjuntos externos"
+  ],
+  "of": [
+    "/",
+    "de"
+  ],
+  "Request a demo": [
+    "预约演示",
+    "Solicitar una demostración"
+  ],
+  "Request a demo.": [
+    "预约演示。",
+    "Solicitar una demostración."
+  ],
+  "Explore care settings": [
+    "探索临床应用场景",
+    "Explorar entornos asistenciales"
+  ],
+  "Related care settings": [
+    "相关临床场景",
+    "Entornos asistenciales relacionados"
+  ],
+  "Care setting": [
+    "临床场景",
+    "Entorno asistencial"
+  ],
+  "Not specified": [
+    "未指定",
+    "Sin especificar"
+  ],
+  "Global website": [
+    "全球官网",
+    "Sitio web global"
+  ],
+  "Copy enquiry": [
+    "复制询盘",
+    "Copiar consulta"
+  ],
+  "No email app? Copy your enquiry and send it to the email address shown here.": [
+    "没有邮件应用？请复制询盘，并发送至此处显示的邮箱。",
+    "¿No tiene aplicación de correo? Copie la consulta y envíela a la dirección indicada aquí."
+  ],
+  "Enquiry copied. Paste it into your email and send it to our team.": [
+    "询盘已复制，请粘贴到邮件中并发送给我们。",
+    "Consulta copiada. Péguela en su correo y envíela a nuestro equipo."
+  ],
+  "Select and copy the enquiry below, then send it by email.": [
+    "请选择并复制下方询盘，然后通过邮件发送。",
+    "Seleccione y copie la consulta de abajo y envíela por correo."
+  ],
+  "Your enquiry": [
+    "您的询盘",
+    "Su consulta"
+  ],
+  "Advancing": [
+    "推动",
+    "Impulsamos"
+  ],
+  "Submit enquiry": [
+    "提交问询",
+    "Enviar consulta"
+  ],
+  "Submitting…": [
+    "正在提交…",
+    "Enviando…"
+  ],
+  "Submit directly on this website. No email app is needed.": [
+    "直接在网站提交，无需打开邮件应用。",
+    "Envíe la consulta en este sitio, sin aplicación de correo."
+  ],
+  "Your contact details are stored so our team can respond. Do not include patient records or other sensitive medical information.": [
+    "我们将保存您的联系方式，以便团队回复。请勿提交患者资料或其他敏感医疗信息。",
+    "Guardaremos sus datos de contacto para responder. No incluya historias clínicas ni información médica sensible."
+  ],
+  "Enquiry saved.": [
+    "问询已保存。",
+    "Consulta guardada."
+  ],
+  "Your enquiry is stored in our inquiry inbox. This confirmation does not mean an email was sent.": [
+    "您的问询已保存至网站收件箱。此确认不代表已发送邮件。",
+    "Su consulta está guardada en nuestro buzón web. Esta confirmación no significa que se haya enviado un correo."
+  ],
+  "Reference:": [
+    "问询编号：",
+    "Referencia:"
+  ],
+  "Submission failed. Please retry or copy your enquiry and email our team.": [
+    "提交失败，请重试，或复制问询后通过邮件联系我们。",
+    "No se pudo enviar. Reintente o copie la consulta y envíela por correo."
+  ],
+  "Product-specific scope · Public summaries only": [
+    "按产品明确范围 · 仅展示公开摘要",
+    "Alcance específico del producto · Solo resúmenes públicos"
+  ],
+  "source documents reviewed": [
+    "已审核来源文件",
+    "documentos fuente revisados"
+  ],
+  "Public summary only. Certificate identifiers and source files are withheld to protect signatures, addresses and other sensitive details. Contact our team for a controlled document review.": [
+    "仅展示公开摘要。证书编号及原文件不公开，以保护签名、地址等敏感信息。如需审阅资料，请联系团队安排受控查阅。",
+    "Solo resumen público. Los identificadores y archivos originales no se publican para proteger firmas, direcciones y otros datos sensibles. Contacte con el equipo para una revisión controlada."
+  ],
+  "records. Open a record for its registered scope and public summary.": [
+    "条记录。打开记录查看适用范围与公开摘要。",
+    "registros. Abra uno para ver su alcance y resumen público."
+  ],
+  "Website": [
+    "网站",
+    "Sitio web"
+  ],
+  "Start another enquiry": [
+    "提交另一条问询",
+    "Crear otra consulta"
+  ],
+  "CT perfusion · Identifier withheld": [
+    "CT 灌注 · 编号不公开",
+    "Perfusión por TC · Identificador reservado"
+  ],
+  "RealNow™ CT perfusion software received FDA 510(k) clearance for the documented module.": [
+    "RealNow™ CT 灌注软件取得文件所载模块的 FDA 510(k) 许可。",
+    "El software RealNow™ de perfusión por TC recibió autorización FDA 510(k) para el módulo documentado."
+  ],
+  "Virtual Brain cognitive-assessment and training software is documented under the documented MDACS listing.": [
+    "Virtual Brain 认知评估与训练软件已有文件所载 MDACS 列名。",
+    "El software de evaluación y entrenamiento cognitivo Virtual Brain consta en el listado MDACS documentado."
+  ],
+  "Product quick tour": [
+    "产品快速导览",
+    "Recorrido rápido del producto"
+  ],
+  "Explore original product views. This guided overview does not run an assessment or analyze patient data.": [
+    "浏览产品原始界面。本导览不会执行评估或分析患者数据。",
+    "Explore vistas originales del producto. Este recorrido no realiza evaluaciones ni analiza datos de pacientes."
+  ],
+  "Product tour steps": [
+    "产品导览步骤",
+    "Pasos del recorrido"
+  ],
+  "Assess cognition": [
+    "评估认知功能",
+    "Evaluar la cognición"
+  ],
+  "See the headset and task environment used for clinician-led cognitive assessment.": [
+    "查看医生指导下认知评估所用的头显与任务环境。",
+    "Vea el visor y el entorno de tareas para la evaluación cognitiva guiada por profesionales."
+  ],
+  "Review quantitative imaging": [
+    "复核定量影像",
+    "Revisar imágenes cuantitativas"
+  ],
+  "Explore regional MRI views. Image quality and individual clinical context require specialist review.": [
+    "浏览区域 MRI 视图。影像质量及个体临床背景需由专科医生复核。",
+    "Explore vistas regionales de RM. La calidad de imagen y el contexto clínico requieren revisión especializada."
+  ],
+  "Review the output": [
+    "查看输出报告",
+    "Revisar los resultados"
+  ],
+  "See a cognitive report example and discuss how results inform the next clinical step.": [
+    "查看认知报告示例，讨论如何用结果辅助下一步临床安排。",
+    "Vea un informe cognitivo de ejemplo y cómo puede orientar el siguiente paso clínico."
+  ],
+  "Review CT findings": [
+    "复核 CT 发现",
+    "Revisar hallazgos de TC"
+  ],
+  "See the original CT analysis interface. Applicable inputs and modules must be confirmed before use.": [
+    "查看原始 CT 分析界面，使用前需确认适用输入与模块。",
+    "Vea la interfaz original de análisis de TC. Confirme las entradas y módulos aplicables antes del uso."
+  ],
+  "Explore vascular views": [
+    "浏览血管视图",
+    "Explorar vistas vasculares"
+  ],
+  "Review the vascular reconstruction example alongside the source images and specialist interpretation.": [
+    "结合原始影像和专科医生解读，查看血管重建示例。",
+    "Revise la reconstrucción vascular junto con las imágenes fuente y la interpretación especializada."
+  ],
+  "Inspect perfusion outputs": [
+    "查看灌注输出",
+    "Examinar resultados de perfusión"
+  ],
+  "Explore perfusion maps and measurements. Outputs support, rather than replace, clinical decisions.": [
+    "浏览灌注图和测量值。输出用于辅助临床决策，不能替代医生判断。",
+    "Explore mapas y mediciones de perfusión. Los resultados apoyan las decisiones clínicas sin sustituirlas."
+  ],
+  "Previous step": [
+    "上一步",
+    "Paso anterior"
+  ],
+  "Next step": [
+    "下一步",
+    "Paso siguiente"
+  ],
+  "Plan your deployment": [
+    "规划部署",
+    "Planificar la implementación"
+  ],
+  "Use this checklist to scope a demonstration and technical evaluation with our team.": [
+    "使用以下清单，与团队明确演示和技术评估的范围。",
+    "Use esta lista para definir la demostración y evaluación técnica con nuestro equipo."
+  ],
+  "Before the demonstration": [
+    "演示之前",
+    "Antes de la demostración"
+  ],
+  "Share your country, care setting, intended users and preferred product modules.": [
+    "请提供国家或地区、临床场景、预期用户及关注的产品模块。",
+    "Indique país, entorno asistencial, usuarios previstos y módulos de interés."
+  ],
+  "During technical evaluation": [
+    "技术评估阶段",
+    "Durante la evaluación técnica"
+  ],
+  "Confirm required imaging sequences, image quality, output formats and any PACS or reporting interfaces.": [
+    "确认所需影像序列、影像质量、输出格式，以及 PACS 或报告系统接口需求。",
+    "Confirme secuencias, calidad de imagen, formatos de salida e interfaces con PACS o informes."
+  ],
+  "Confirm the supported headset or tablet, training environment, user supervision and reporting needs.": [
+    "确认适配的头显或平板、训练环境、使用监督及报告需求。",
+    "Confirme el visor o tableta compatible, entorno de entrenamiento, supervisión y necesidades de informes."
+  ],
+  "Before rollout": [
+    "正式部署之前",
+    "Antes de la puesta en marcha"
+  ],
+  "Agree on local availability, deployment configuration, data handling, training, support and acceptance criteria.": [
+    "共同确认当地供应、部署配置、数据处理、培训支持及验收标准。",
+    "Acuerde disponibilidad local, configuración, tratamiento de datos, formación, soporte y criterios de aceptación."
+  ],
+  "Integration, hosting location, response times and service terms are confirmed for each project. This page does not promise a specific interface or installation time.": [
+    "接口集成、托管位置、响应时间和服务条款需逐项目确认。本页不承诺特定接口或安装时间。",
+    "Integraciones, alojamiento, tiempos de respuesta y condiciones se confirman por proyecto. Esta página no garantiza una interfaz ni un plazo de instalación."
+  ],
+  "Discuss deployment requirements": [
+    "讨论部署需求",
+    "Consultar requisitos de implementación"
+  ],
+  "Deployment": [
+    "部署说明",
+    "Implementación"
+  ],
+  "Explore CT regional overlays from the product presentation. Source images and findings require specialist review.": [
+    "浏览产品演示中的 CT 区域叠加图。原始影像与发现需由专科医生复核。",
+    "Explore superposiciones regionales de TC de la presentación. Las imágenes y hallazgos requieren revisión especializada."
+  ],
+  "Review evidence and scope": [
+    "查看证据与适用范围",
+    "Revisar evidencia y alcance"
+  ],
+  "Open the product evidence page to review study findings, limitations and module-specific scope before planning an evaluation.": [
+    "在安排评估前，打开产品证据页查看研究发现、局限及模块适用范围。",
+    "Antes de planificar una evaluación, revise los resultados, limitaciones y alcance de cada módulo en la página de evidencia."
+  ],
+  "Open the sample Brain Health Report to review the reporting structure with your clinical team.": [
+    "打开脑健康报告示例，与临床团队一起查看报告结构。",
+    "Abra el informe de salud cerebral de ejemplo para revisar su estructura con el equipo clínico."
+  ],
+  "LumiBrain ADHD headset visual": [
+    "LumiBrain ADHD 头显展示",
+    "Visual del visor LumiBrain ADHD"
+  ],
+  "Headset and controllers in the supplied LumiBrain ADHD brochure": [
+    "LumiBrain ADHD 头显展示，来自用户提供的产品宣传资料。",
+    "Visual del visor LumiBrain ADHD, de los materiales promocionales facilitados."
+  ],
+  "Supplied brochure: LumiBrain_ADHD_Product_Manual_Refined.pdf · page 1. Promotional product material; configuration and availability require confirmation.": [
+    "用户提供彩页：LumiBrain_ADHD_Product_Manual_Refined.pdf · 第 1 页。产品宣传资料；配置和供应情况需确认。",
+    "Folleto facilitado: LumiBrain_ADHD_Product_Manual_Refined.pdf · página 1. Material promocional; confirme configuración y disponibilidad."
+  ],
+  "Attention training interface": [
+    "注意力训练界面",
+    "Interfaz de entrenamiento de atención"
+  ],
+  "A training task interface from the LumiBrain ADHD manual": [
+    "注意力训练界面，来自用户提供的产品宣传资料。",
+    "Interfaz de entrenamiento de atención, de los materiales promocionales facilitados."
+  ],
+  "Supplied brochure: LumiBrain_ADHD_Product_Manual_Refined.pdf · page 4. Promotional product material; configuration and availability require confirmation.": [
+    "用户提供彩页：LumiBrain_ADHD_Product_Manual_Refined.pdf · 第 4 页。产品宣传资料；配置和供应情况需确认。",
+    "Folleto facilitado: LumiBrain_ADHD_Product_Manual_Refined.pdf · página 4. Material promocional; confirme configuración y disponibilidad."
+  ],
+  "LumiBrain care scenario": [
+    "LumiBrain 训练场景",
+    "Escenario de atención LumiBrain"
+  ],
+  "A promotional child training scene from the LumiBrain ADHD manual": [
+    "LumiBrain 训练场景，来自用户提供的产品宣传资料。",
+    "Escenario de atención LumiBrain, de los materiales promocionales facilitados."
+  ],
+  "Portable device kit": [
+    "便携设备套装",
+    "Kit portátil"
+  ],
+  "Portable headset, controllers, tablet and carrying case": [
+    "便携设备套装，来自用户提供的产品宣传资料。",
+    "Kit portátil, de los materiales promocionales facilitados."
+  ],
+  "Supplied brochure: LumiBrain_ADHD_Product_Manual_Refined.pdf · page 6. Promotional product material; configuration and availability require confirmation.": [
+    "用户提供彩页：LumiBrain_ADHD_Product_Manual_Refined.pdf · 第 6 页。产品宣传资料；配置和供应情况需确认。",
+    "Folleto facilitado: LumiBrain_ADHD_Product_Manual_Refined.pdf · página 6. Material promocional; confirme configuración y disponibilidad."
+  ],
+  "Portable Pro configuration": [
+    "Portable Pro 配置",
+    "Configuración Portable Pro"
+  ],
+  "Headset and carrying case in the supplied Portable Pro configuration": [
+    "Portable Pro 配置，来自用户提供的产品宣传资料。",
+    "Configuración Portable Pro, de los materiales promocionales facilitados."
+  ],
+  "Clinical workstation configuration": [
+    "机构工作站配置",
+    "Configuración de estación clínica"
+  ],
+  "Workstation, display and VR equipment in the supplied configuration visual": [
+    "机构工作站配置，来自用户提供的产品宣传资料。",
+    "Configuración de estación clínica, de los materiales promocionales facilitados."
+  ],
+  "Home rehabilitation scenario": [
+    "居家康复场景",
+    "Escenario de rehabilitación en casa"
+  ],
+  "Promotional home cognitive training scene from the supplied home rehabilitation brochure": [
+    "居家康复场景，来自用户提供的产品宣传资料。",
+    "Escenario de rehabilitación en casa, de los materiales promocionales facilitados."
+  ],
+  "Supplied brochure: VR_Home_Rehabilitation_Spacing_PRINT.pdf · page 1. Promotional product material; configuration and availability require confirmation.": [
+    "用户提供彩页：VR_Home_Rehabilitation_Spacing_PRINT.pdf · 第 1 页。产品宣传资料；配置和供应情况需确认。",
+    "Folleto facilitado: VR_Home_Rehabilitation_Spacing_PRINT.pdf · página 1. Material promocional; confirme configuración y disponibilidad."
+  ],
+  "LumiBrain ASD family scenario": [
+    "LumiBrain ASD 家庭场景",
+    "Escenario familiar LumiBrain ASD"
+  ],
+  "Promotional family training scene from the supplied LumiBrain ASD brochure": [
+    "LumiBrain ASD 家庭场景，来自用户提供的产品宣传资料。",
+    "Escenario familiar LumiBrain ASD, de los materiales promocionales facilitados."
+  ],
+  "Supplied brochure: LumiBrain ASD 彩页.pdf · page 1. Promotional product material; configuration and availability require confirmation.": [
+    "用户提供彩页：LumiBrain ASD 彩页.pdf · 第 1 页。产品宣传资料；配置和供应情况需确认。",
+    "Folleto facilitado: LumiBrain ASD 彩页.pdf · página 1. Material promocional; confirme configuración y disponibilidad."
+  ],
+  "LumiBrain ASD device workflow": [
+    "LumiBrain ASD 设备流程",
+    "Flujo de dispositivos LumiBrain ASD"
+  ],
+  "Device and tablet workflow illustration from the LumiBrain ASD brochure": [
+    "LumiBrain ASD 设备流程，来自用户提供的产品宣传资料。",
+    "Flujo de dispositivos LumiBrain ASD, de los materiales promocionales facilitados."
+  ],
+  "Emotion recognition task": [
+    "情绪识别任务",
+    "Tarea de reconocimiento emocional"
+  ],
+  "Emotion recognition task screenshot from the LumiBrain ASD brochure": [
+    "情绪识别任务，来自用户提供的产品宣传资料。",
+    "Tarea de reconocimiento emocional, de los materiales promocionales facilitados."
+  ],
+  "Supplied brochure: LumiBrain ASD 彩页.pdf · page 2. Promotional product material; configuration and availability require confirmation.": [
+    "用户提供彩页：LumiBrain ASD 彩页.pdf · 第 2 页。产品宣传资料；配置和供应情况需确认。",
+    "Folleto facilitado: LumiBrain ASD 彩页.pdf · página 2. Material promocional; confirme configuración y disponibilidad."
+  ],
+  "Social practice task": [
+    "社交练习任务",
+    "Tarea de práctica social"
+  ],
+  "Social practice task screenshot from the LumiBrain ASD brochure": [
+    "社交练习任务，来自用户提供的产品宣传资料。",
+    "Tarea de práctica social, de los materiales promocionales facilitados."
+  ],
+  "Mobile clinical unit": [
+    "移动临床单元",
+    "Unidad clínica móvil"
+  ],
+  "Mobile clinical unit shown in the Brain Renew brochure": [
+    "移动临床单元，来自用户提供的产品宣传资料。",
+    "Unidad clínica móvil, de los materiales promocionales facilitados."
+  ],
+  "Supplied brochure: 1012 Brain Renew .pdf · page 5. Promotional product material; configuration and availability require confirmation.": [
+    "用户提供彩页：1012 Brain Renew .pdf · 第 5 页。产品宣传资料；配置和供应情况需确认。",
+    "Folleto facilitado: 1012 Brain Renew .pdf · página 5. Material promocional; confirme configuración y disponibilidad."
+  ],
+  "QuickMind configuration overview": [
+    "QuickMind 配置概览",
+    "Configuraciones QuickMind"
+  ],
+  "Clinical assessment, rehabilitation and home device configurations from the QuickMind brochure": [
+    "QuickMind 配置概览，来自用户提供的产品宣传资料。",
+    "Configuraciones QuickMind, de los materiales promocionales facilitados."
+  ],
+  "Supplied brochure: QuickMind brochure.pdf · page 2. Promotional product material; configuration and availability require confirmation.": [
+    "用户提供彩页：QuickMind brochure.pdf · 第 2 页。产品宣传资料；配置和供应情况需确认。",
+    "Folleto facilitado: QuickMind brochure.pdf · página 2. Material promocional; confirme configuración y disponibilidad."
+  ],
+  "New product brochure visuals": [
+    "新产品彩页图片",
+    "Imágenes de nuevos folletos"
+  ],
+  "Supplied LumiBrain and QuickMind materials. Brochure brand names are retained; promotional scenes are not clinical case evidence.": [
+    "来自用户提供的 LumiBrain 和 QuickMind 资料。保留彩页品牌名；宣传场景不作为临床案例证据。",
+    "Materiales LumiBrain y QuickMind facilitados. Se conservan las marcas del folleto; las escenas promocionales no son evidencia clínica."
+  ],
+  "Explore a portable headset and controller configuration from the supplied product brochure.": [
+    "查看用户提供彩页中的便携式头显与控制器配置。",
+    "Explore una configuración portátil de visor y mandos del folleto facilitado."
+  ],
+  "Product configurations and training scenes from supplied brochures. Availability and supported functions depend on the selected device and market.": [
+    "来自产品彩页的设备配置与训练场景。供应情况及支持功能以具体设备和市场为准。",
+    "Configuraciones y escenas de entrenamiento de los folletos proporcionados. La disponibilidad y las funciones dependen del dispositivo y del mercado."
+  ]
+}

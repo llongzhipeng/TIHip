@@ -1,0 +1,152 @@
+{
+  "title": "AI Brain Health & Longevity Report",
+  "pdf": "/resources/brain-health-report-reviewed.pdf",
+  "pageCount": 17,
+  "cover": "/media/brain-health-report/thumbnail-01.webp",
+  "coverWidth": 500,
+  "coverHeight": 708,
+  "sourceName": "AI Brain Health & Longevity Report(4).pdf",
+  "sourceSha256": "3dda70962fe2c58f6a79388adb9fbcaefea3b7f9d2d0eeeb98f79b03d108cb92",
+  "pages": [
+    {
+      "number": 1,
+      "label": "Cover",
+      "src": "/media/brain-health-report/page-01.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 1
+    },
+    {
+      "number": 2,
+      "label": "Purpose & reading guide",
+      "src": "/media/brain-health-report/page-03.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 3
+    },
+    {
+      "number": 3,
+      "label": "Clinical caution",
+      "src": "/media/brain-health-report/page-04.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 4
+    },
+    {
+      "number": 4,
+      "label": "Executive summary",
+      "src": "/media/brain-health-report/page-05.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 5
+    },
+    {
+      "number": 5,
+      "label": "Summary review notes",
+      "src": "/media/brain-health-report/page-06.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 6
+    },
+    {
+      "number": 6,
+      "label": "AI brain age",
+      "src": "/media/brain-health-report/page-07.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 7
+    },
+    {
+      "number": 7,
+      "label": "Brain-age model notes",
+      "src": "/media/brain-health-report/page-08.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 8
+    },
+    {
+      "number": 8,
+      "label": "Cognition-related analysis",
+      "src": "/media/brain-health-report/page-09.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 9
+    },
+    {
+      "number": 9,
+      "label": "Regional measurements",
+      "src": "/media/brain-health-report/page-10.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 10
+    },
+    {
+      "number": 10,
+      "label": "Ventricular analysis",
+      "src": "/media/brain-health-report/page-11.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 11
+    },
+    {
+      "number": 11,
+      "label": "Ventricular clinical context",
+      "src": "/media/brain-health-report/page-12.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 12
+    },
+    {
+      "number": 12,
+      "label": "Cerebellar structure",
+      "src": "/media/brain-health-report/page-13.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 13
+    },
+    {
+      "number": 13,
+      "label": "Cerebellar continuation",
+      "src": "/media/brain-health-report/page-14.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 14
+    },
+    {
+      "number": 14,
+      "label": "White-matter analysis",
+      "src": "/media/brain-health-report/page-15.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 15
+    },
+    {
+      "number": 15,
+      "label": "White-matter source reconciliation",
+      "src": "/media/brain-health-report/page-16.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 16
+    },
+    {
+      "number": 16,
+      "label": "Vascular safety modules",
+      "src": "/media/brain-health-report/page-17.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 17
+    },
+    {
+      "number": 17,
+      "label": "Vascular review notes",
+      "src": "/media/brain-health-report/page-18.webp",
+      "width": 983,
+      "height": 1390,
+      "sourceNumber": 18
+    }
+  ],
+  "originalPdf": "/resources/brain-health-report.pdf",
+  "sourcePageCount": 18,
+  "reviewNote": "Blank cover-continuation page removed; all substantive source pages retained.",
+  "reviewedSha256": "27c3a1974906e3d185bbf198f1f2b32b46f5a1997763f877d12234082a1dc6c3"
+}
