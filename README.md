@@ -2,7 +2,7 @@
 
 [打开独立修改版预览站](https://yiwei-medical-review-20261112.lawrence-wan-0405.chatgpt.site)（私有访问，需使用已获授权的 ChatGPT 账号登录）。
 
-本仓库存放根据《网址问题汇总2.docx》及《Vr 产品图片.zip》完成的修改版源码，包括全部 18 张补充图片。原仓库为 https://github.com/laurelcovedr/drbrain.net-website ，本仓库为独立私有副本。
+本仓库存放根据《网址问题汇总2.docx》及《Vr 产品图片.zip》完成的修改版源码，包括全部 18 张补充图片。原仓库为 https://github.com/laurelcovedr/drbrain.net-website ，本仓库为经用户确认上传到 llongzhipeng/TIHip 的独立公开副本。
 
 - [网站工程](drbrainnet/)
 - [逐项修改记录与待补素材](drbrainnet/docs/document-review-2026-11-12.html)
