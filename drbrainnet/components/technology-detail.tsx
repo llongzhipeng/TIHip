@@ -13,7 +13,7 @@ import {products,articles,type Article} from '@/lib/yiwei-data';
 export function TechnologyDetail({slug,onOpen}:{slug:string;onOpen:(a:Article)=>void}){
   const technology=technologies.find(t=>t.slug===slug)!;
   const related=products.filter(p=>technology.products.includes(p.slug));
-  const visual=getMediaImage(slug==='imaging-ai'?'drbrain-mri-views':slug==='eye-tracking'?'brochure-portable-kit':'brochure-home-rehabilitation');
+  const visual=getMediaImage(slug==='imaging-ai'?'drbrain-mri-views':slug==='eye-tracking'?'eye-tracking-technology':'brochure-home-rehabilitation');
   return <div className="container section technology-detail"><Breadcrumb section="technology" detail={technology.label}/>
     <div className="technology-detail-hero"><div className="page-intro"><span className="eyebrow">{technology.kicker}</span><h1>{technology.label}.</h1><p>{technology.summary}</p></div><figure className={"technology-hero-image "+(slug==='imaging-ai'?'imaging-frame':'')}><ProductImage image={visual} priority/><figcaption>{visual.title}</figcaption></figure></div>
     <div className="technology-io"><div><span className="eyebrow">INPUT</span><p>{technology.input}</p></div><div><span className="eyebrow">OUTPUT FOR REVIEW</span><p>{technology.output}</p></div></div>

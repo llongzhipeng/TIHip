@@ -1,3 +1,4 @@
+import {review3Images} from './review3-media';
 import {reviewImages} from './review-media';
 import {brochureImages} from './brochure-media';
 export type MediaImage={id:string;src:string;title:string;alt:string;caption:string;source:string;width:number;height:number;illustrative?:boolean;viewport?:{x:number;y:number;width:number;height:number}};
@@ -5,6 +6,7 @@ const image=(id:string,title:string,alt:string,caption:string,source:string,widt
 export const mediaImages:MediaImage[]=[
  ...brochureImages,
  ...reviewImages,
+ ...review3Images,
  {id:'autismshield-care-illustration',src:'/media/autismshield-care-illustration.webp',title:'Social-attention practice',alt:'Illustration of a child practicing social cues on a tablet with a therapist, with a VR headset on the table',caption:'An illustrative care scenario for LumiBrain ASD: therapist-guided social-attention practice using a tablet, with VR as a complementary activity format. This is a concept illustration, not an actual product interface.',source:'/products/autismshield',width:1536,height:1024,illustrative:true},
  {id:'bp-quickmind-device',src:'/media/bp/quickmind-device.png',title:'QuickMind assessment system',alt:'QuickMind headset, controllers and connected tablet',caption:'Original device illustration from YIWEI’s September 2026 overseas presentation, slide 7.',source:'/products/dr-brain',width:714,height:680},
  {id:'bp-structural-mri',src:'/media/bp/structural-mri.webp',title:'Structural MRI examples',alt:'Sagittal MRI examples showing regional structural patterns',caption:'Original imaging examples from YIWEI’s overseas presentation, slide 11. Illustrative material for clinical review, without an individual diagnosis.',source:'/technology/imaging-ai',width:867,height:355},
@@ -41,7 +43,7 @@ const imageViewports:Record<string,NonNullable<MediaImage['viewport']>>={
 };
 export const getMediaImage=(id:string):MediaImage=>({...mediaImages.find(m=>m.id===id)!,viewport:imageViewports[id]});
 export const productMedia:Record<string,string[]>={
- 'quickmind-vr':['quickmind-screening','quickmind-report','quickmind-clinician-dashboard','quickmind-progress'],
+ 'quickmind-vr':['quickmind-dashboard','quickmind-assessment-report','quickmind-training-gaze'],
  'dr-brain':['drbrain-mri-views','bp-structural-mri'],
  'realnow':['realnow-ct','realnow-aspects','realnow-vessels','realnow-perfusion'],
  'autismshield':['brochure-asd-family','brochure-asd-device'],

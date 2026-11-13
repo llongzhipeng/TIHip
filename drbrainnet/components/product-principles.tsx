@@ -14,7 +14,12 @@ export function ProductPrinciples({slug}:{slug:string}){
  ['Individualized Training','Professionals select suitable activities and difficulty, then review session records to adjust the plan.']
  ]).map(([title,text])=><article key={title}><h3>{title}</h3><p>{text}</p></article>)}</div><Link className="text-link" href={imaging?'/technology/imaging-ai':'/technology/eye-tracking'}>Explore the technology</Link></section>
 }
+const trainingImages:Record<string,string[]>={
+ 'quickmind-vr':['quickmind-training-memory','quickmind-training-abstraction','quickmind-training-executive','quickmind-training-calculation','quickmind-training-attention','quickmind-training-recall'],
+ 'autismshield':['lumibrain-asd-emotion','lumibrain-asd-daily','lumibrain-asd-social','lumibrain-cognitive-domains'],
+ 'forcus':['lumibrain-adhd-memory','lumibrain-adhd-abstraction','lumibrain-adhd-executive','lumibrain-adhd-calculation','lumibrain-adhd-attention','lumibrain-adhd-recall'],
+};
 export function TrainingCoverage({slug}:{slug:string}){
- const ids=slug==='autismshield'?['lumibrain-asd-emotion','lumibrain-asd-daily','lumibrain-asd-social','lumibrain-cognitive-domains']:['lumibrain-adhd-memory','lumibrain-adhd-abstraction','lumibrain-adhd-executive','lumibrain-adhd-calculation','lumibrain-adhd-attention','lumibrain-adhd-recall'];
- return <section className="training-coverage"><MediaGallery ids={ids} title="Rehabilitation Training Modules"/></section>;
+ const ids=trainingImages[slug];if(!ids)return null;
+ return <section className="training-coverage"><MediaGallery ids={ids} title={slug==='quickmind-vr'?'Six Cognitive Training Modules':'Rehabilitation Training Modules'}/></section>;
 }

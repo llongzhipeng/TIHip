@@ -1,0 +1,132 @@
+{
+  "source": "图片更换.zip",
+  "date": "2026-11-13",
+  "files": [
+    {
+      "file": "/media/review3/quickmind-dashboard.png",
+      "source_file": "QuickMind 系统内部图片/1.png",
+      "sha256": "a9bcaf05d07a55b2e5bc7aa1a01c69100ce9ba677a2289f7f31b1c427ee1c2cf",
+      "width": 1920,
+      "height": 912
+    },
+    {
+      "file": "/media/review3/quickmind-assessment-report.png",
+      "source_file": "QuickMind 系统内部图片/2.png",
+      "sha256": "1ffe444d1132781b9a5d016481a40ef89b420f0ad3ce8fb083a4df3e7726ace1",
+      "width": 1920,
+      "height": 912
+    },
+    {
+      "file": "/media/review3/quickmind-training-gaze.png",
+      "source_file": "QuickMind 系统内部图片/3.png",
+      "sha256": "ba2b0a43a99acece3c661d497ac82d55452e41a25c4179238bf368a10215b527",
+      "width": 1920,
+      "height": 912
+    },
+    {
+      "file": "/media/review3/quickmind-training-recall.png",
+      "source_file": "QuickMind 训练图片/六大训练-回忆长期记忆.png",
+      "sha256": "80cd51de9cec9c8ef76401de7924afd711dab88719dda06899b190b39bc83395",
+      "width": 1810,
+      "height": 869
+    },
+    {
+      "file": "/media/review3/quickmind-training-executive.png",
+      "source_file": "QuickMind 训练图片/六大训练-执行力.png",
+      "sha256": "4ddfbff9a055484db00e91a7c729264ba8783f41e869a0964b828ccf7bf956d0",
+      "width": 1654,
+      "height": 951
+    },
+    {
+      "file": "/media/review3/quickmind-training-abstraction.png",
+      "source_file": "QuickMind 训练图片/六大训练-抽象力.png",
+      "sha256": "e94e1f535555e0db5cb31617c36d8c906887719088772a07adeb61aa3a200f8c",
+      "width": 1821,
+      "height": 864
+    },
+    {
+      "file": "/media/review3/quickmind-training-attention.png",
+      "source_file": "QuickMind 训练图片/六大训练-注意力.png",
+      "sha256": "f0f9ddb29feaba1622d65708157bcba62e00cef5e7f773b342636c49514a4221",
+      "width": 1599,
+      "height": 984
+    },
+    {
+      "file": "/media/review3/quickmind-training-calculation.png",
+      "source_file": "QuickMind 训练图片/六大训练-计算力2.png",
+      "sha256": "88925303d713ea177e4beb24c7072f2d113de467a365be0a3a2822b8a4bec272",
+      "width": 1500,
+      "height": 1049
+    },
+    {
+      "file": "/media/review3/quickmind-training-memory.png",
+      "source_file": "QuickMind 训练图片/六大训练-记忆力.png",
+      "sha256": "ab2128edc2503496d7b605d413f5ee82bd317a9db07f0abe9ee85070824bf887",
+      "width": 1656,
+      "height": 950
+    },
+    {
+      "file": "/media/review3/eye-tracking-technology.png",
+      "source_file": "VR眼动追踪技术 图片.png",
+      "sha256": "95b0b8cdb947a956b5407797feb218efc3cd8da202729c834a58eebd21a79c9b",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "/media/review3/field-indonesia-2.png",
+      "source_file": "网址真人使用照片更换/Indonesia 2.png",
+      "sha256": "797becaf2bb1c0404eaec49d98621439cff33e3c8621b21527c0150f8dfdcab1",
+      "width": 447,
+      "height": 722
+    },
+    {
+      "file": "/media/review3/field-indonesia-1.png",
+      "source_file": "网址真人使用照片更换/Indonesia 图1.png",
+      "sha256": "f3ff7bd81c762c2a258506e8ec90f619b7ecd5ba897ac818022b2177ad562956",
+      "width": 559,
+      "height": 722
+    },
+    {
+      "file": "/media/review3/field-italy.png",
+      "source_file": "网址真人使用照片更换/Italy.png",
+      "sha256": "4f9f9339728e5d267bda5be7169dfc6d2d1f50c50b5c0369d58b75916319382b",
+      "width": 849,
+      "height": 353
+    },
+    {
+      "file": "/media/review3/field-kazakhstan.png",
+      "source_file": "网址真人使用照片更换/Kazakhstan.png",
+      "sha256": "31d27b1b0225c287432a78f985c77a4257e3fa841137cee06faac1e41c39cd39",
+      "width": 849,
+      "height": 459
+    },
+    {
+      "file": "/media/review3/field-malaysia.png",
+      "source_file": "网址真人使用照片更换/Malaysia.png",
+      "sha256": "3b3c0187698bec5bb37d349bc811b7310aceccedd104de51a9de4a144d06b6d4",
+      "width": 604,
+      "height": 805
+    },
+    {
+      "file": "/media/review3/field-saudi-arabia.png",
+      "source_file": "网址真人使用照片更换/Saudi Arabia.png",
+      "sha256": "88a97322fdb6492f41db9a362b61ae48967b36f2b8bdbd9407e1589c04850639",
+      "width": 605,
+      "height": 821
+    },
+    {
+      "file": "/media/review3/field-thailand-1.png",
+      "source_file": "网址真人使用照片更换/Thailand 图1.png",
+      "sha256": "f1ca98f839be0c7c35fb6b642a2017b2a02cba6e07f923ee75ce1a5a2122e582",
+      "width": 951,
+      "height": 615
+    },
+    {
+      "file": "/media/review3/field-thailand-2.png",
+      "source_file": "网址真人使用照片更换/Thailand 图2.png",
+      "sha256": "95c97ca9df8023be5fa91d2ad8f4e410b5556456908233679b0f61fa919de237",
+      "width": 951,
+      "height": 615
+    }
+  ]
+}

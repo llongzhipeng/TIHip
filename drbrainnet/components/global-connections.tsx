@@ -4,7 +4,7 @@ import Link from '@/components/site-link';
 import {organizationMarks,type OrganizationMark} from '@/lib/yiwei-organizations';
 
 function OrganizationLogo({mark}:{mark:OrganizationMark}){
- return mark.crop?<svg className="institution-symbol" viewBox={mark.crop.join(' ')} role="img" aria-label={mark.name+' mark'}><title>{mark.name}</title><image href={mark.src} width={mark.width} height={mark.height}/></svg>:<img src={mark.src} width={mark.width} height={mark.height} alt={mark.name+' logo'} loading="lazy" decoding="async"/>;
+ return mark.crop?<svg className={'institution-symbol '+(mark.id==='huashan'?'institution-symbol-wide':'')} viewBox={mark.crop.join(' ')} role="img" aria-label={mark.name+' mark'}><title>{mark.name}</title><image href={mark.src} width={mark.width} height={mark.height}/></svg>:<img src={mark.src} width={mark.width} height={mark.height} alt={mark.name+' logo'} loading="lazy" decoding="async"/>;
 }
 function OrganizationCard({mark}:{mark:OrganizationMark}){
  const content=<><div className="organization-logo"><OrganizationLogo mark={mark}/></div>{mark.kind==='clinical'&&<h3>{mark.name}</h3>}<span>{mark.role}</span></>;
